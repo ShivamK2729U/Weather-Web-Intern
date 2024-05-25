@@ -60,35 +60,35 @@ const city = document.querySelector('.search-box input').value;
     switch (json.weather[0].main) {
       
       case 'Clear': 
-        image.src = 'sun.png';
+        image.src = 'Weather/sun.png';
         break;
         
       
       case 'Rain':
-        image.src = 'rain.png';
+        image.src = 'Weather/rain.png';
         break;
       
       
       case 'Snow':
-        image.src = 'snow.png';
+        image.src = 'Weather/snow.png';
         break;
         
       case 'Clouds':
-        image.src = 'cloud.png';
+        image.src = 'Weather/cloud.png';
       
       
       case 'Mist':
-        image.src = 'cloud.png';
+        image.src = 'Weather/cloud.png';
         break;
       
       
       case 'Haze':
-        image.src = 'air.png';
+        image.src = 'Weather/air.png';
         break;
         
       
       default:
-        image.src = 'cloud.png';
+        image.src = 'Weather/cloud.png';
         
     }
         
